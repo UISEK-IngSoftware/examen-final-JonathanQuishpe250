@@ -1,0 +1,50 @@
+#character-list-item {
+  --padding-start: 16px;
+  --padding-end: 16px;
+  margin-bottom: 8px;
+}
+
+#character-list-item ion-avatar {
+  width: 60px;
+  height: 60px;
+  margin-right: 16px;
+}
+
+#character-list-item ion-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.character-details {
+  margin-top: 8px;
+}
+
+.character-info {
+  margin: 4px 0;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+
+.gender-info {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--ion-color-medium);
+}
+
+.status-badge {
+  font-size: 12px;
+  padding: 4px 8px;
+}
+
+.species-note {
+  font-size: 13px;
+  color: var(--ion-color-medium);
+}
+
+.character-species {
+  margin-left: 8px;
+}
